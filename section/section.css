@@ -1,0 +1,14 @@
+.contenedor{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.cuadrito{
+    background-color: orange;
+    color: white;
+    margin: 5px 5px;
+    justify-content: center;
+    display: flex;
+}
